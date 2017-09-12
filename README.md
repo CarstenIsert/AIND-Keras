@@ -12,12 +12,14 @@
 	
 	For __Mac/OSX__ or __Linux__:
 	```
-		conda env create -f requirements/aind-dl-mac-linux.yml
+		conda env create -f aind-dl-mac-linux.yml
 		source activate aind-dl
 		KERAS_BACKEND=tensorflow python -c "from keras import backend"
 	```
 
 3. Start the notebook
 	``` jupyter notebook Student_Admissions.ipynb ```
+	or
+	````jupyter notebook IMDB_In_Keras.ipynb```
 	
 4. The notebooks contain observations and results analyzing the models and the code. 
