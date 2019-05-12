@@ -8,18 +8,11 @@
 		cd AIND-Keras
 	```
 
-2. Obtain the necessary Python packages, and switch Keras backend to Tensorflow.  
-	
-	For __Mac/OSX__ or __Linux__:
-	```
-		conda env create -f aind-dl-mac-linux.yml
-		source activate aind-dl
-		KERAS_BACKEND=tensorflow python -c "from keras import backend"
-	```
+2. Due to security concerns raised by GitHub, the file has been deleted. Please check dependencies again for a new setup. Sorry for the inconvenience.
 
 3. Start the notebook
 	``` jupyter notebook Student_Admissions.ipynb ```
 	or
-	````jupyter notebook IMDB_In_Keras.ipynb```
+	``` jupyter notebook IMDB_In_Keras.ipynb ```
 	
 4. The notebooks contain observations and results analyzing the models and the code. 
